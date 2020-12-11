@@ -49,6 +49,6 @@ func main() {
 	e.DELETE("/hapus_menu", handler.HapusData)
 	e.Static("/static", "assets")
 	e.POST("/tambah_order", handler.InputOrder)
-	// Start the Echo server
+	// Start the Echo server w ganteng
 	e.Logger.Fatal(e.Start(":1323"))
 }
